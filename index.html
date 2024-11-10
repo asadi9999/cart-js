@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li ><a href=""class="fa fa-gift">java</a></li>
+            <li><a href=""class="fa fa-car">react-js</a></li>
+            <li><a href=""class="fa fa-amazon">node-js</a></li>
+        </ul>
+        <div id="show-cart">
+            <span id="mycart">Show Cart</span>
+            <div class="cart-items">0</div>
+            <div><i class="fa fa-shopping-cart"></i></div>
+        </div>
+        
+    </nav>
+    <div class="header">
+        <h1>Our Products</h1>
+        <input type="text" placeholder="search your item"id="txt-search">
+    </div>
+    
+    <div class="product-center"></div>
+    
+    <div id="mycart-content">
+        <h3>My Cart</h3>
+        <hr>
+        <span id="close"></span>
+        
+        <div class="cart-content"></div><hr>
+        <div class="mycartFooter">
+            <div class="">
+                <h3>Total cart:<span class="cart-total">0</span></h3>
+            </div>
+            
+            <span class="clear-cart btn continue">delet products</span>
+            <span class="continue cancel"><h3>Cancel</h3></span>
+        </div>
+    </div>
+    
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
